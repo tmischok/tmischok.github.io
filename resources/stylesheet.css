@@ -1,0 +1,31 @@
+/* Import used fonts */
+@font-face {
+  font-family: Pacifico;
+  src: url("../Fonts/Pacifico-Regular.ttf");
+}
+
+@font-face {
+  font-family: Gudea;
+  src: url("../Fonts/Gudea-Regular.ttf");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: Gudea;
+  src: url("../Fonts/Gudea-Bold.ttf");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: Gudea;
+  src: url("../Fonts/Gudea-Italic.ttf");
+  font-style: italic;
+}
+
+#welcome_hero h1, h2{
+  font-family: Pacifico;
+}
+
+body {
+  font-family: Gudea;
+}

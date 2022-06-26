@@ -7,7 +7,7 @@
   <meta name="author" content="Tim Mischok">
   <meta name="viewpoint" content="width=device-width, initial-scale=1">
   <title>Tim Mischok</title>
-  <link rel="stylesheet" href="resources/stylesheet/stylesheet.css">
+  <link rel="stylesheet" href="resources/stylesheet.css">
   <link rel="stylesheet" href="resources/bootstrap/bootstrap.min.css">
   <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png">
@@ -15,8 +15,52 @@
   <link rel="manifest" href="resources/icons/site.webmanifest">
 </head>
 
-<body>
+<body class="bg-dark text-white d-flex flex-column min-vh-100">
+  <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarToggler">
+        <a class="navbar-brand" href="#">Tim Mischok</a>
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#aboutme">Über mich</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#projects">Projekte</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#contact">Kontakt</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="container" id="welcome_hero">
+    <div class="px-4 py-5 my-5 text-center">
+      <h1 class="display-1">Hi</h1>
+      <h2 class="display-2">Ich bin Tim.</h2>
+      <div class="col-lg-6 mx-auto mt-5">
+        <p class="lead mb-4 fw-bold my-3">Informatikstudent. Freizeit Swift Developer. Transportenthusiast.</p>
+      </div>
+    </div>
+  </div>
+  <div class="" id="aboutme">
 
+  </div>
+  <div class="" id="projects">
+
+  </div>
+  <div class="" id="contact">
+
+  </div>
+  <footer class="container-fluid text-center mt-auto mb-0" id="footer">
+    <span class="mb-0">Tim Mischok</span>
+  </footer>
   <script src="resources/bootstrap/bootstrap.bundle.min.js"></script>
 </body>
 
