@@ -22,10 +22,14 @@
   font-style: italic;
 }
 
-#welcome_hero h1, h2{
+#welcome_hero h1, h2 {
   font-family: Pacifico;
 }
 
 body {
   font-family: Gudea;
+}
+
+#present, nav {
+  background: #2d3035;
 }
